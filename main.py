@@ -52,7 +52,7 @@ if __name__ == "__main__":
     s = time.perf_counter()
     resources = []
     mongo = Mongo()
-    servers_list = mongo.get_docs("machine")
+    servers_list = mongo.get_docs("machines")
     now = datetime.now()
     dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
 

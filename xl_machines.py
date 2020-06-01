@@ -106,5 +106,5 @@ servers_list = [
 
 
 for name in servers_list:
-    mongo.update("machine", {"name": name["name"]}, name)
+    mongo.update("machines", {"name": name["name"]}, name)
 
