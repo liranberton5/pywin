@@ -4,7 +4,7 @@ from virtual_properties import VirtualProperties
 from physical_properties import PhysicalProperties
 from vm import VM
 import json
-from pmongo import Mongo
+from tools.pmongo import Mongo
 import time, threading, pythoncom
 from datetime import datetime
 
