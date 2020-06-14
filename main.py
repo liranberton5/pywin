@@ -46,8 +46,8 @@ def info(user, password, machine, mongo, dt_string):
 
 
 if __name__ == "__main__":
-    user = "liberton"
-    password = "IAMdevopshere!1"
+    user = "psqmngr"
+    password = "4109Y@mL3!23456"
 
     s = time.perf_counter()
     resources = []
